@@ -11,27 +11,24 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'zautebot'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
+    text = f"""ʜᴇʏ! {m.from_user.mention(style='md')},
 
-** I am Stylish Font Bot ✍️**
+** ɪ ᴍ sᴛʏʟɪsʜ ғᴏɴᴛ ʙᴏᴛ ✍️**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+` ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ɢᴇᴛ sᴛʏʟɪsʜ ғᴏɴᴛs ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄts.'
 
-** Developer by :** ❤️ ▷ [@ZauteKm](https://t.me/ZauteKm/346)
+** ᴏᴡɴᴇʀ :** ❤️ ▷ [ᴄᴀᴛ](https://t.me/cat_of_tg)
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('👥 Group', url=f"https://t.me/iZaute/5"),
-            InlineKeyboardButton('Channel 📢', url=f"https://t.me/iZaute/6")
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/teamladz_bothub"),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/team_lad")
             ],[
-            InlineKeyboardButton('❤️ Credit', url=f"https://t.me/{owner_username}"),
-            InlineKeyboardButton('Bot Lists 🤖', url=f"https://t.me/iZaute/8"),
-            InlineKeyboardButton('GitHup 🤣', url=f"https://github.com/ZauteKm")
-            ],[
-            InlineKeyboardButton('⚜️ Subscribe Now YouTube ⚜️', url=f"https://youtube.com/c/ZauteKm")
-        ]
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url=f"https://t.me/cat_of_tg")
+            InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url=f"https://t.me/music_and_chats"),
+            ]
     ]
     await m.reply_text(
         text=text,
@@ -49,7 +46,7 @@ async def style_buttons(c, m, cb=False):
         ],[
         InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒇', callback_data='style+bold_cool'),
         InlineKeyboardButton('𝑆𝑒𝑟𝑖𝑓', callback_data='style+cool'),
-        InlineKeyboardButton('Sᴍᴀʟʟ Cᴀᴘs', callback_data='style+small_cap'),
+        InlineKeyboardButton('sᴍᴀʟʟ Cᴀᴘs', callback_data='style+small_cap'),
         ],[
         InlineKeyboardButton('𝓈𝒸𝓇𝒾𝓅𝓉', callback_data='style+script'),
         InlineKeyboardButton('𝓼𝓬𝓻𝓲𝓹𝓽', callback_data='style+script_bolt'),
