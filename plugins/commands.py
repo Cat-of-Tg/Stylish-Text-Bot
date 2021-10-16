@@ -26,7 +26,7 @@ async def start(c, m):
             InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=f"https://t.me/teamladz_bothub"),
             InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/team_lad")
             ],[
-            InlineKeyboardButton('ᴏᴡɴᴇʀ´, url=f"https://t.me/cat_of_tg")
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url=f"https://t.me/cat_of_tg")
             InlineKeyboardButton('ᴍᴜsɪᴄ ɢʀᴏᴜᴘ', url=f"https://t.me/music_and_chats"),
             ]
     ]
