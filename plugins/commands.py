@@ -17,7 +17,6 @@ async def start(c, m):
 
 ` ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ɢᴇᴛ sᴛʏʟɪsʜ ғᴏɴᴛs ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴀɴᴅ sᴇᴇ ᴍᴀɢɪᴄts.'
 
-** ᴏᴡɴᴇʀ :** ❤️ ▷ [ᴄᴀᴛ](https://t.me/cat_of_tg)
 """
 
     # Buttons
